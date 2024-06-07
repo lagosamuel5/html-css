@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(38, 12, 63)
+    
+}
+main{
+    background-color:rgb(47, 31, 94);
+    text-align:justify;
+    width:95%;
+    margin:auto;
+    border-radius:10px;
+    padding:10px;
+    box-shadow:20px 20px 20px rgb(31, 10, 58);
+}
+h1#principal{
+background-color:rgb(61, 35, 133);
+padding:10px;
+border-radius: 10px;
+color:bisque;
+text-decoration:none
+}
+h1{
+    color:aliceblue;
+    
+    
+}
+h2{
+    border-style:double;
+    border-color:rgb(2, 12, 20);
+    border-radius:20px;
+    padding:10px;
+    
+}
+p{
+    color:rgb(197, 194, 194);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.basico{
+    color:antiquewhite;
+    text-align:justify
+}
+.intermediario{
+    color:rgb(187, 153, 108)
+}
+.avançado{
+    color:rgb(190, 192, 61)
+}
+p{
+    display:none;
+}
+div:hover>p{
+    display:block;
+}
+.div1{
+    font-size:16px;
+}
+
+
+

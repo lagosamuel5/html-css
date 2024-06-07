@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body><!--use a tag picture para criar imagens dinamicas de acordo com tamanho da resolução de dispositivo que está acessando o site-->
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir essas imagens em outros dispositivos</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="https://gartic.com.br/imgs/mural/gu/gubakajo/300x300-pixels.png"type="image/png">
+            <source media="(max-width: 1050px)" srcset="https://upload.wikimedia.org/wikipedia/commons/c/c9/Sap-logo-700x700.jpg"type="image/png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Red_png_1000x1000.png" alt="imagem flexível">
+        </picture>
+        <h1>Reproduzindo audio em html</h1>
+        <p>Vamos aprender a colocar audio em codigos html</p>
+        <audio preload="none"controls>
+            <source src="midia/guanacast.mp3" type="audio/mpeg">
+        </audio>
+</body>
+</html>
