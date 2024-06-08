@@ -1,48 +1,115 @@
-*{
-    margin:0px;
-    padding:0px;
+
+
+    
+
+body{
+    background-image: url("imagens/body.jfif");
+    width:100vh;
+    background-attachment: fixed;
 }
-body.body1{
-    width:100%;
-    height:100%;
-    position:relative;
+
+div{
+    background-color:#F2F5F4;
+    border-top:0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-color: rgba(0, 0, 0, 0.219);
+    border-style: solid;
+    height:70px;
+    border-radius:10px;
+}    
+
+
+body > div{
+    position: absolute;
+    background-color:#F2F5F4;
+    display:block;
    
-}
-header>div{
-    background-color: rgb(255, 255, 255);
-    display:flex;
-    align-items: center;
-    justify-content: center;
+   
+   
     
     
     
 
+    
 }
-header>div>img{
-    width:300px;
-    height:300px;
-}
-.imgmenu{
+.imenu{
     width:40px;
-    height:40px;
-}
-.imgmenu2{
-    width:30px;
-    height:30px;
-    display:flex;
-    position:relative;
-    top:100%;
-    left:100%;
-    transform:translate(-100%, -100%);
+    position:absolute;
+    left:1%;
+    transform: translate(-1%);
+    z-index:1;
     
+    
+}
+.logob{
+    width:140px;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%);
+    z-index:1;
+}
+.ipes{
+    position:absolute;
+    width:20px;
+    left:99%;
+    top:1%;
+    transform:translate(-99%);
+    z-index:1;
+}
+main{
+    width:1020px;
+    height: 80%;
+    background-color: #F2F5F4;
+    position: absolute;
+    border:1px solid #F2F5F4;
+    top:27%;
+    left:50%;
+    transform:translate(-50%)
+}
 
     
+
+img#imglogo{
+width:220px; 
+position:absolute;
+left:50%;
+transform:translate(-50%)  
 }
-.imgmenu1{
-    top:50%;
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:rgb(70, 65, 65);
+    position:absolute;
+    top:17%;
     left:50%;
-    transform:translate(-70%, -50%);
-    margin-top: 50px;
-    margin-bottom: -50px;
-    position:relative;
+    transform:translate(-50%)
+}
+.div2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:rgb(70, 65, 65);
+    position:absolute;
+    top:24%;
+    left:50%;
+    transform:translate(-50%);
+    padding:5px 150px;
+    border:1px solid black;
+    border-radius:10px;
+    width:300px;
+    height:30px;
+    
+    
+}
+p{
+    position:absolute;
+    top:-10%;
+    left:2%;
+    transform:translate(-2%);
+
+    
+    
+   
+     
 }
