@@ -1,13 +1,13 @@
 body{
-    width:98vh;
-    height:98vh;
-    background-image: url("imagens/wallpaper003.jpg");
-    background-position: left top;
-    
+    width:100vh;
+  
+    background:black url("imagens/wallpaper003.jpg") center center no-repeat fixed;
+    background-size:cover;
 
 }
+
 .quadrado{
-    display:inline-block;
+    display:block;
     width:300px;
     height:300px;
     border:1px solid black;
@@ -19,7 +19,6 @@ div#q1{
     background-color:aqua;
     position:absolute;
     left:99%;
-    transform:translate(-98%)
 }
 div#q2{
     background-image:linear-gradient(to bottom, yellow, red);
