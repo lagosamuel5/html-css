@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio tab 3</title>
+    <style>
+        table{
+            width:500px;
+        }
+        td, th{
+            border:1px solid black;
+            padding:15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        thead{
+            background-color: gray;
+            font-weight: bold;
+        }
+        tr:nth-child(even){
+            background-color: aqua;
+        }
+        .homens{
+            background-color: white;
+        }
+        caption{
+            font-variant: small-caps;
+            font-size: 2em;
+        }
+       
+    </style>
+</head>
+<body>
+    <table> 
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="colgroup">Grupo</th>
+                <th scope="colgroup">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3" class="homens">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall E</td>
+                <td>Old Boy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+</table>
+</body>
+</html>
