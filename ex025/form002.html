@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários 02</title>
+</head>
+<body>
+    <h1>Entre</h1>
+    <form action="" autocomplete="on" method="post">
+        <p> <label for="iname">Seu nome:</label></p>
+        <input type="text" name="name" id="iname" minlength="7" autocomplete="username" placeholder="nome de usuário">
+        <p><label for="isenha">sua senha:</label><input type="password" name="senha" id="isenha"></p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input name="media" id="imedia" type="number" min="0" max="10" step="0.5" placeholder="de 0 a 10">
+        </p>
+        <p><label for="idata">Data da prova:</label>
+        <input type="date" name="data" id="idata" ></p>
+        <input type="submit" value="Cadastrar">
+        
+    </form>
+</body>
+</html>
