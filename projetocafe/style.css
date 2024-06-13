@@ -1,0 +1,154 @@
+*{
+    Margin:0px;
+    padding:0px;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: black;
+    
+}
+header{
+    width: 100vw;
+    height:120px;
+    border:2px solid rgb(0, 0, 0);
+    border-bottom-color: rgb(59, 59, 59);
+    position: fixed;
+    top:0;
+    z-index: 10;
+   background-color: black;
+   min-width: 1050px;
+}
+div>img{
+    width:180px;
+    position:absolute;
+    left:12%;
+    top:50%;
+    transform: translate(-12%,-50%);
+    
+    
+}
+img{
+    width:40px;
+    
+    
+}
+.pesquisa{
+    width:40px;
+    position: absolute;
+    left:80%;
+    top:50%;
+    transform: translate(-80%,-50%);
+}
+.carrinho{
+    width:40px;
+    position: absolute;
+    left:83%;
+    top:50%;
+    transform: translate(-83%,-50%);
+}
+header>nav{
+    
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+   
+}
+nav>h3{
+    color:white;
+    display:inline;
+    padding:10px;
+    font-size: 1.2em;
+    min-width: 600px;
+}
+main{
+    background-image: url("imagens/home-img.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+section{
+    
+    width: 35vw;
+    height: 40vh;
+    position: relative;
+    left:20%;
+    top:40%;
+    min-width: 600px;
+    padding-bottom: 80px;
+
+}
+h1{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    color:white;
+    font-size:80px;
+    
+}
+.p, p{
+    color: rgb(160, 158, 158);
+    font-size:1.3em;
+    
+}
+section>a{
+    background-color: rgb(153, 145, 77);
+    color:white;
+    padding:7px;
+    margin:1px;
+    margin-top: 10px;
+    display:block;
+    width:130px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.sobre{
+    top:20%;
+    display:flex;
+    align-items: center;
+    height:500px;
+    width:900px;
+}
+.divsobre{
+    left:5%;
+    padding-top: 50px;;
+}
+
+.sobre>img{
+    width:max-content;
+    height:500px;
+}
+.sobretexto{
+    width:max-content;
+    color: white;
+    height:500px;
+    background-color: #0a0a16;
+    
+}
+    
+
+.sobre>div>p{
+    
+    margin-left: 36px;
+    width:500px;
+    background-color: #0e0a16;
+    padding: 10px;
+    
+}
+
+
+
+.sobretexto>h2{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+}
+.sobretexto>p{
+    font-size: 1.3em;
+    
+}
