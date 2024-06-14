@@ -20,8 +20,7 @@
 }
 body{
     background-color: var(--bg);
-    width: 100vw;
-    height:100vh;
+   
 }
 .header{
     position: fixed;
@@ -33,7 +32,7 @@ body{
 }
 section{
     padding:30px 15px;
-    margin: 0 auto;
+    margin:0 auto;
     max-width: 1200px;
 }
 .header>section{
