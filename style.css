@@ -86,8 +86,10 @@ section>nav>a{
     min-height: 100vh;
 }
 .conteudo{
-    max-width: 500px;
-    padding:10px;
+    width: 500px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    max-height: 500px;
 }
 .conteudo>h3{
     color: white;
@@ -96,10 +98,16 @@ section>nav>a{
 }
 .conteudo>p{
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-bottom: 20px;
     margin-top: 20px;
+    display: inline-block;
 }
+.conteudo>h2{
+    font-size: 3vw;
+    color: white;
+}
+
 #abtn{
     font-size: 1.3em;
     color:rgb(0, 0, 0);
@@ -121,24 +129,27 @@ section>nav>a{
     color: black;
     border-radius: 10px;
     padding:0px 10px;
-    
-    
-    
 }
+
+.sobre{
+    margin-top:100px;
+}   
+    
+
 .sobreconteudo{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
     
 }
 .sobreimg{
     margin-top: 20px;
 }
-.conteudo>h2{
-    font-size: 50px;
-    color: white;
-}
 
+.menu{
+    margin-top: 200px;
+}
 
 .menuconteudo{
     border:2px solid #615f5f;
@@ -199,6 +210,7 @@ section>nav>a{
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
+    
 }
 .boxclient{
     width:400px;
