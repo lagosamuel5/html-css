@@ -86,7 +86,7 @@ section>nav>a{
     min-height: 100vh;
 }
 .conteudo{
-    min-width: max-content;
+    width: 500px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     max-height: 500px;
