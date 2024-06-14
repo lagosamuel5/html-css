@@ -86,7 +86,7 @@ section>nav>a{
     min-height: 100vh;
 }
 .conteudo{
-    width: 500px;
+    min-width: max-content;
     padding-top: 10vh;
     padding-bottom: 10vh;
     max-height: 500px;
@@ -101,7 +101,7 @@ section>nav>a{
     font-size: 1.5vw;
     margin-bottom: 20px;
     margin-top: 20px;
-    display: inline-block;
+    
 }
 .conteudo>h2{
     font-size: 3vw;
@@ -216,18 +216,21 @@ section>nav>a{
     width:400px;
     border:2px solid #615f5f;
     padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-.boxclient>p{
+.boxclient>div>p{
     font-size: 20px;
     color: #ffffff;
 }
-.boxclient>h4{
+.boxclient>div>h4{
     font-size: 25px;
     font-weight: bold;
     color: white;
     text-align: center;
 }
-.boxclient>img{
+.boxclient>div>img{
     padding: 10px;
     display:block;
     margin:0 auto;
