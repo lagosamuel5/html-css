@@ -7,16 +7,14 @@
     transition: 0.4s linear;
 }
 body{
-    width:100vw;
-    height:100vh;
+    
 
 }
 .sectcab{
 
     width:100vw;
     background-color: rgb(255, 255, 255);
-    border-bottom:5px solid rgba(0, 0, 0, 0.89);
-    box-s: 10px 10px rgba(0, 0, 0, 0.5);
+    border-bottom:5px solid rgba(0, 0, 0, 0.733);
     position: fixed;
     top:0;
     z-index: 10;
@@ -24,26 +22,29 @@ body{
 .conteudocab{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
     margin:0 auto;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .logo>img{
+    width:200px;
     -webkit-filter: invert(100%);
 }
 .logo{
+    width:200px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .conteudocab>a>img{
-    
     width:40px;
     -webkit-filter: invert(100%);
 }
+
 .conteudocab>a{
+    width:40px;
     padding:10px;
     border-radius:10px;
 }
@@ -203,10 +204,14 @@ div>p{
     
     .conteudocab>a>img{
         width:30px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .logo>img{
         width:150px;
+        box-sizing: border-box;
+        
     }
   
 }
