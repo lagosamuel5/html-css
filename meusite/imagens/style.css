@@ -11,10 +11,9 @@ body{
 
 }
 .sectcab{
-
     width:100vw;
     background-color: rgb(255, 255, 255);
-    border-bottom:5px solid rgba(0, 0, 0, 0.733);
+    border-bottom:5px solid #000000bb;
     position: fixed;
     top:0;
     z-index: 10;
@@ -58,6 +57,9 @@ body{
 }
 
 .background{
+    display:grid;
+    align-items: center;
+    justify-content: center;
     background-image: url(ny.jpg);
     height:100vh;
     background-repeat: no-repeat;
@@ -65,19 +67,29 @@ body{
     background-size: cover;
     opacity: 70%;
     background-attachment: fixed;
+    transition: none;
+    
 }
+
+
 .h1cima>h1{
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.979);
-    color:white;
+    background-color: rgba(0, 0, 0, 0.329);
+    color:#ffffff81;
     padding:13px 20px;
-    font-weight: 300;  
-    letter-spacing: 7px; 
+    font-weight: bold;  
+    letter-spacing: 7px;
+     
 }
+.h1cima>img{
+    position: relative;
+    bottom:78px;
+}
+
 .secao1{
     max-width:1700px;
     
@@ -215,4 +227,12 @@ div>p{
     .logo{
         width:120px;
     }
+    .h1cima>img{
+        width:100px;
+    }
+    .h1cima>h1{
+        font-size:15px;
+        width:120px;
+    }
+    
 }
