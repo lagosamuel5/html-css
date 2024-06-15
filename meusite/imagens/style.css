@@ -203,15 +203,16 @@ div>p{
 @media(max-width:750px){
     
     .conteudocab>a>img{
-        width:30px;
-        padding-left: 0;
-        padding-right: 0;
+        width:25px;
+        
     }
 
     .logo>img{
-        width:150px;
-        box-sizing: border-box;
+        width:130px;
+        
         
     }
-  
+    .logo{
+        width:120px;
+    }
 }
