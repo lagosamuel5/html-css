@@ -200,9 +200,11 @@ div>p{
     letter-spacing: 7px; 
 }
 @media(max-width:750px){
+    
     .conteudocab>a>img{
         width:30px;
     }
+
     .logo>img{
         width:180px;
     }
