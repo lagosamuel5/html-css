@@ -4,15 +4,54 @@
     outline: none;
     font-family: "Lato", sans-serif;
     text-decoration: none;
+    transition: 0.4s linear;
 }
 body{
     width:100vw;
     height:100vh;
 
 }
+.sectcab{
 
+    width:100vw;
+    background-color: rgb(255, 255, 255);
+    border-bottom:5px solid rgba(0, 0, 0, 0.89);
+    box-s: 10px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.conteudocab{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:0 auto;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.logo>img{
+    -webkit-filter: invert(100%);
+}
+.conteudocab>a>img{
+    
+    width:40px;
+    -webkit-filter: invert(100%);
+}
+.conteudocab>a{
+    padding:10px;
+    border-radius:10px;
+}
+.logo:hover{
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: invert(100%);
+}
+.conteudocab>a:hover{
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: invert(100%);
+}
 
-header{
+.background{
     background-image: url(ny.jpg);
     height:100vh;
     background-repeat: no-repeat;
@@ -154,4 +193,13 @@ div>p{
     padding:13px 20px;
     font-weight: 300;  
     letter-spacing: 7px; 
+}
+@media(max-width:750px){
+    .conteudocab>a>img{
+        width:30px;
+    }
+    .logo>img{
+        width:180px;
+    }
+  
 }
