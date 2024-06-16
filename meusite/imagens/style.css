@@ -276,6 +276,11 @@ div>p{
     font-weight: 300;  
     letter-spacing: 7px; 
 }
+@media(max-width:1380px){
+    .camimg{
+        height:200px;
+    }
+}
 @media(max-width:750px){
     
     .conteudocab>a>img{
@@ -298,5 +303,23 @@ div>p{
         font-size:15px;
         width:120px;
     }
-    
+    .camimg{
+        height:110px;
+    }
+    .boxcontainer{
+        height:max-content;
+    }
+    .comprar>p{
+        font-size:15px;
+    }
+    .preco{
+        font-size:13px;
+    }
+    .name{
+        font-size:13px;
+           
+    }
+    .title{
+        font-size:40px;
+    }
 }
