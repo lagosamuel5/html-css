@@ -90,11 +90,11 @@ a:hover>span{
 
 .h1cima>h1{
     position:absolute;
-    top:50%;
+    top:60%;
     left:50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.199);
     color:#ffffff81;
     padding:13px 20px;
     font-weight: bold;  
@@ -103,7 +103,9 @@ a:hover>span{
 }
 .h1cima>img{
     position: relative;
-    bottom:78px;
+    bottom:50px;
+    width:200px;
+    opacity: 70%;
 }
 
 .secao1{
