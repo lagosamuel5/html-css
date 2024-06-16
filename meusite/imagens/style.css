@@ -46,6 +46,9 @@ body{
     width:40px;
     padding:10px;
     border-radius:10px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
 }
 .logo:hover{
     background-color: rgb(255, 255, 255);
@@ -55,6 +58,19 @@ body{
     background-color: rgb(255, 255, 255);
     -webkit-filter: invert(100%);
 }
+span{
+    text-align: center;
+    font-size:12px;
+    color: black;
+    font-variant: small-caps;
+    font-weight: bolder;
+    display:none;
+}
+a:hover>span{
+    display:block;
+    
+}
+
 
 .background{
     display:grid;
@@ -103,17 +119,65 @@ body{
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
-
-h3{
-    font-size:30px;
+.boxshirt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:30px 0px;
+}
+.boxcontainer{
+    
+    padding:10px;
+}
+.boxcontainer:hover{
+    border:1px solid rgba(0, 0, 0, 0.233);
+    border-top:none;
+    border-bottom: none;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.507);
+}
+.camimg{
+    
+    height:430px;
+}
+h2{
+    font-size:70px;
     font-weight: bold;
     text-align: center;
+    padding:10px 10px 50px 10px;
+    text-transform: uppercase;
+    border-bottom:1px solid #00000067;
+
     
+}
+.comprar>p{
+    color:black;
+    font-size:25px;
+    margin:0 auto;
+    padding:15px 0px;
+    text-transform: uppercase;
+}
+.comprar>p:hover{
+    background:black;
+    color:white;
+    border-radius:10px;
+}
+.preco{
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.name{
+    
+    border-bottom: 1px solid #00000067;
+    padding-bottom: 20px;
 }
 p{
     font-size: 18px;
     text-align: center;
-    vertical-align: middle;
+    
 }
 #embacada{
     background-image: url(embacada.jpg);
