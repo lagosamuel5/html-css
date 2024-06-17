@@ -28,11 +28,12 @@ body{
     padding-right: 10vw;
 }
 .logo>img{
-    width:200px;
+    width:150px;
     -webkit-filter: invert(100%);
 }
+
 .logo{
-    width:200px;
+    width:150px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -51,6 +52,7 @@ body{
     justify-content: center;
 }
 .logo:hover{
+    
     background-color: rgb(255, 255, 255);
     -webkit-filter: invert(100%);
 }
@@ -76,7 +78,7 @@ a:hover>span{
     display:grid;
     align-items: center;
     justify-content: center;
-    background-image: url(ny.jpg);
+    background-image: url(grafite3.jpg);
     height:100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,28 +90,8 @@ a:hover>span{
 }
 
 
-.h1cima>h1{
-    position:absolute;
-    top:60%;
-    left:50%;
-    transform: translate(-50%, -60%);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.199);
-    color:#ffffff81;
-    padding:13px 20px;
-    font-weight: bold;  
-    letter-spacing: 7px;
-     
-}
-.h1cima>img{
-    position: relative;
-    bottom:50px;
-    width:200px;
-    opacity: 70%;
-}
-
 .secao1{
-    max-width:1700px;
+    max-width:1800px;
     
     max-height: max-content;
     background-color: white;
@@ -126,12 +108,13 @@ a:hover>span{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap:20px;
+    gap:30px;
     padding:30px 0px;
 }
 .boxcontainer{
-    
-    padding:10px;
+    display: block;
+    align-items: center;
+    width:460px;
 }
 .boxcontainer:hover{
     border:1px solid rgba(0, 0, 0, 0.233);
@@ -140,8 +123,8 @@ a:hover>span{
     box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.507);
 }
 .camimg{
-    
-    height:430px;
+    width:400px;
+    height:400px;
 }
 h2{
     font-size:70px;
@@ -182,41 +165,33 @@ p{
     
 }
 #embacada{
-    background-image: url(embacada.jpg);
+    background-image: url(back2.jpg);
     height:500px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     opacity: 70%;
     background-attachment: fixed;
 }
 .secao2{
-    background-color:#282E34;
-    width:100vw;
-    max-height:max-content;
-    margin: auto;
-    
-
-}
-.secao2>div{
-    max-width: 1700px;
+    max-width:1700px;
+    max-height: max-content;
+    background-color: white;
     margin:0 auto;
+    opacity: 70%;
     padding-top:30px;
     padding-left:10vw;
     padding-right: 10vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
-}
-.secao2>div>p{
-    color:white;
-    max-width: 1700px;
     
+
 }
-.secao2>div>h3{
-    color:white;
-}
+
+
+
 .chicago{
-    background-image: url(chicago.jpg);
+    background-image: url(grafite5.jpg);
     height:500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -225,30 +200,22 @@ p{
     background-attachment: fixed;
 }
 .secao3{
-    background-color:#282E34;
-    width:100vw;
-    max-width: max-content;
-    margin:auto;
-}
-.secao3>div>p{
-    color:white;
-    max-width: 1700px;
-    
-}
-.secao3>div{
-    margin:auto;
-    max-width: 1700px;
+    max-width:1700px;
+    max-height: max-content;
+    background-color: white;
+    margin:0 auto;
+    opacity: 70%;
     padding-top:30px;
     padding-left:10vw;
     padding-right: 10vw;
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
-.secao3>div>h3{
-    color:white;
-}
+
+
+
 footer{
-    background-image: url(ny.jpg);
+    background-image: url(grafite6.jpg);
     height:100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -256,34 +223,20 @@ footer{
     opacity: 70%;
     background-attachment: fixed;
 }
-div>p{
-    padding-top:20px;
-    line-height: 30px;
-}
-.divfooter{
-    position: relative;
-}
-.divfooter>div{
-    display:block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.h1final{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.979);
-    color:white;
-    padding:13px 20px;
-    font-weight: 300;  
-    letter-spacing: 7px; 
-}
+
+
+
 @media(max-width:1380px){
     .camimg{
-        height:200px;
+        height:300px;
+        width:300px;
+    }
+    .boxcontainer{
+        height:max-content;
+        width:max-content;
     }
 }
-@media(max-width:750px){
+@media(max-width:813px){
     
     .conteudocab>a>img{
         width:25px;
@@ -298,18 +251,15 @@ div>p{
     .logo{
         width:120px;
     }
-    .h1cima>img{
-        width:100px;
-    }
-    .h1cima>h1{
-        font-size:15px;
-        width:120px;
-    }
+    
+    
     .camimg{
-        height:110px;
+        height:130px;
+        width:130px;
     }
     .boxcontainer{
         height:max-content;
+        width:max-content;
     }
     .comprar>p{
         font-size:15px;
