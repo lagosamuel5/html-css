@@ -235,7 +235,19 @@ footer{
     }
 }
 @media(max-width:813px){
-    
+    .background{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url(grafite3.jpg);
+        height:100vh;
+        background-repeat: no-repeat;
+        background-position:left top;
+        background-size: cover;
+        opacity: 70%;
+        background-attachment: fixed;
+        transition: none;
+    }    
     .conteudocab>a>img{
         width:25px;
         

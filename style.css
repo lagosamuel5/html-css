@@ -196,7 +196,7 @@ section>nav>a{
 }
 .menuconteudo:hover{
     background-color: #ffffff;
-    color:#000000;
+    
 }
 .menuconteudo:hover>*{
     color: #000000;
