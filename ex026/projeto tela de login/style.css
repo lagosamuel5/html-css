@@ -77,15 +77,14 @@ label>input{
 }
 .senha{
     background-color: rgb(35, 78, 64);
-    width:198px;
-    height:20px;
+    width:200px;
+    height:23px;
     margin:auto;
     margin-top:10px;
-    
     border-radius: 10px;
     padding: 10px;
     display:flex;
-    align-items: center;
+    
     justify-content: center;
     
 }
@@ -132,10 +131,9 @@ label>input{
     }
     .login>h1{
         font-size:25px;
+        padding: 10px 0;
     }    
-    .entrar, .senha{
-        height:10px;
-    }
+  
 }
 @media screen and (min-width:992px){
     body{
@@ -170,6 +168,7 @@ label>input{
     }
     .login>h1{
         font-size:35px;
+        
     }    
     .entrar, .senha{
         height:30px;
