@@ -91,6 +91,8 @@ form h1{
 @media screen and (min-width:768px){
     body{
         background-image: linear-gradient(to top, rgb(51, 31, 51), rgb(137, 62, 172));
+        width:100vw;
+        height:100vh;
     }
     .box{
         width:80vw;
@@ -120,6 +122,8 @@ form h1{
 @media screen and (min-width:992px){
     body{
         background-image: linear-gradient(to top, rgb(51, 31, 51), rgb(137, 62, 172));
+        width:100vw;
+        height:100vh;
         
     }
     .box{
