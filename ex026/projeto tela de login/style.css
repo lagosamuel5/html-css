@@ -5,35 +5,31 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
+    position: relative;
     background-color: blueviolet;
     height:100vh;
     width:100vw;
     
     
 }
-main{
-    width:360px;
-    height:608px;
+
+    
+
+.box{
+    position:absolute;
+    width:250px;
+    height:500px;
     background-color: aliceblue;
     border-radius: 20px;
-    position: relative;
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%);
-    background-image: url(imagem/grafite.jpg);
-    background-position: center;
+    overflow: hidden;
 }
-.box{
-  
-    background-color: white;
-    height:60%;
-    bottom: 0;
-    width:360px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    position: absolute;
-    display:flex;
-    justify-content: center;
+.background{
+    height:160px;
+    background-image: url(imagem/grafite.jpg);
+    background-size:cover;
 }
 form h1{
     text-align: center;
@@ -49,6 +45,7 @@ form h1{
 }
 .entrar{
     width:200px;
+    height:23px;
     background-color: green;
     padding: 10px;
     display:flex;
@@ -64,6 +61,7 @@ form h1{
     text-decoration: none;
     color:white;
     display:flex;
+    align-items: center;
     justify-content: center;
    
     
@@ -71,7 +69,7 @@ form h1{
 .senha{
     background-color: aquamarine;
     width:198px;
-    height:33px;
+    height:20px;
     margin:auto;
     margin-top:10px;
     border:2px solid green;
@@ -92,8 +90,5 @@ form h1{
 
 
     
-@media screen and ("min-width:600px"){
-    main{
-        width
-    }
-}
+
+  
