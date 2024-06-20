@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto net</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="boxcontainer">
+        <div class="background">
+            <div class="header">
+            </div>
+            <div class="section">
+            </div>
+        </div>
+        <div class="content">
+            <div class="faq">
+                <img id="botao" src="images/icon-star.svg" alt="image/svg">
+                <h1>FAQs</h1>
+            </div>
+            <div class="answer">
+                <h4>FAQs What is Frontend Mentor, and how will it help me?</h4>
+                
+                <img src="images/icon-plus.svg" alt="" onclick="clickMenu ()">
+            </div>
+            <p id="menu">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+            <div class="answer">
+                <h4>Is Frontend Mentor free?</h4>
+                <p></p>
+                <img src="images/icon-plus.svg" alt="">
+            </div>
+            
+            <div class="answer">
+                <h4>Can I use Frontend Mentor projects in my portfolio?</h4>
+                
+                <img src="images/icon-plus.svg" alt="">
+            </div>
+            <p></p>
+            <div class="answer">
+                <h4>How can I get help if I'm stuck on a challenge?</h4>
+                
+                <img src="images/icon-plus.svg" alt="">
+            </div>
+            <p></p>
+        </div>
+    </div>
+    <script>
+        function clickMenu (){
+            if (menu.style.display == 'none')
+                {menu.style.display = 'block'}        
+            else {menu.style.display = 'none'}
+            
+        }
+    </script>
+</body>
+</html>
