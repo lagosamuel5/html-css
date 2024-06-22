@@ -12,6 +12,10 @@
     --titlecolor: #4B5157;
     --pcolor: #b0b1b3;
 }
+body{
+    width:1440px;
+    margin:auto;
+}
 header{
     background-image: url(images/bg-header-desktop.png);
     width:1440px;
