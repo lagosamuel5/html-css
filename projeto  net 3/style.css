@@ -100,7 +100,7 @@ h3{
     color:var(--titlecolor)
 }
 .mid{
-    width:521px;
+    width:530px;
     display:grid;
     align-items: center;
     justify-content: center;
@@ -108,9 +108,12 @@ h3{
     text-align: center;
     gap: 20px;
     margin-bottom: 70px;
+    
 }
 .pmargin{
     margin-bottom: 50px;
+    width:530px;
+    margin:auto;
 }
 .footer{
     width:1440px;
