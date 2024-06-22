@@ -169,13 +169,13 @@ span{
 }
 @media(max-width: 500px){
     body{
-        width:500px;
+        width:450px;
         margin:auto;
     }
     header{
         background-image: url(images/bg-header-mobile.png);
         background-size: cover;
-        width:500px;
+        width:450px;
         height:max-content;
         margin:auto;
         display:flex;
@@ -195,12 +195,12 @@ span{
     .title>h1{
         color:var(--titlecolor);
         padding:40px 10vw;
-        width:500px;
+        width:450px;
         text-align: center;
     }
     .title>p{
         text-align: center;
-        width:500px;
+        width:450px;
         padding:0px 10vw;
     }
     p{
@@ -208,7 +208,7 @@ span{
         font-size:14px;
     }
     .download{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         justify-content: center;
@@ -234,7 +234,7 @@ span{
         box-shadow: 1px 2px 1px hsl(210, 10%, 33%);
     }
     .h2{
-        width:500px;
+        width:450px;
         display:grid;
         margin:auto;
         text-align: center;
@@ -246,7 +246,7 @@ span{
         color:var(--titlecolor);
     }
     .pcdiv{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         margin:auto;
@@ -254,12 +254,12 @@ span{
         margin-bottom: 130px;
     }
     .pc>img{
-        width:500px;
+        width:450px;
         margin:auto;
         padding:0px 10vw;
     }
     .sidepc{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         justify-items: center;
@@ -271,7 +271,7 @@ span{
         color:var(--titlecolor)
     }
     .mid{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         justify-content: center;
@@ -283,18 +283,18 @@ span{
         
     }
     .mid>img{
-        width:500px;
+        width:450px;
         padding:0 10vw;
     }
     .pmargin{
         margin-bottom: 50px;
-        width:500px;
+        width:450px;
         margin:auto;
         text-align: center;
         padding:0 22vw;
     }
     .footer{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         justify-items: center;
@@ -312,7 +312,7 @@ span{
         padding:0 10vw;
     }
     .logos{
-        width:500px;
+        width:450px;
         display:grid;
         align-items: center;
         justify-items: center;
@@ -324,7 +324,7 @@ span{
     }
     footer{
         background-color:hsl(200, 9%, 94%);
-        width:500px;
+        width:450px;
         height:max-content;
         display:grid;
         align-items: center;
