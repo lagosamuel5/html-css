@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: "Bai Jamjuree", sans-serif;
-    
+    transition: 1s linear;
 }
 
 :root{
@@ -166,4 +166,193 @@ footer{
 }
 span{
     color:var(--cyan)
+}
+@media(max-width: 500px){
+    body{
+        width:500px;
+        margin:auto;
+    }
+    header{
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        width:500px;
+        height:max-content;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .logo{
+        width:auto;
+        display:flex;
+        justify-content: center;
+    }
+    .title{
+        width:auto;
+        margin:auto;
+        margin-bottom: 50px;
+    }
+    .title>h1{
+        color:var(--titlecolor);
+        padding:40px 10vw;
+        width:500px;
+        text-align: center;
+    }
+    .title>p{
+        text-align: center;
+        width:500px;
+        padding:0px 10vw;
+    }
+    p{
+        color:var(--pcolor);
+        font-size:14px;
+    }
+    .download{
+        width:500px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin:auto;
+        margin-bottom: 100px;
+        
+    }
+    .ios{
+        background-color: var(--cyan);
+        text-decoration: none;
+        color:white;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 1px 2px 1px rgb(41, 151, 151);
+    }
+    .mac{
+        background-color: var(--lightblue);
+        text-decoration: none;
+        color:white;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 1px 2px 1px hsl(210, 10%, 33%);
+    }
+    .h2{
+        width:500px;
+        display:grid;
+        margin:auto;
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 70px;
+        padding:0px 15vw;
+    }
+    h2{
+        color:var(--titlecolor);
+    }
+    .pcdiv{
+        width:500px;
+        display:grid;
+        align-items: center;
+        margin:auto;
+        gap: 80px;
+        margin-bottom: 130px;
+    }
+    .pc>img{
+        width:500px;
+        margin:auto;
+        padding:0px 10vw;
+    }
+    .sidepc{
+        width:500px;
+        display:grid;
+        align-items: center;
+        justify-items: center;
+        gap:20px;
+        padding:0px 22vw;
+        text-align: center;
+    }
+    h3{
+        color:var(--titlecolor)
+    }
+    .mid{
+        width:500px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        text-align: center;
+        padding:0px 10vw;
+        gap: 20px;
+        margin-bottom: 70px;
+        
+    }
+    .mid>img{
+        width:500px;
+        padding:0 10vw;
+    }
+    .pmargin{
+        margin-bottom: 50px;
+        width:500px;
+        margin:auto;
+        text-align: center;
+        padding:0 22vw;
+    }
+    .footer{
+        width:500px;
+        display:grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        margin:auto;
+        margin-bottom: 150px;
+        gap:40px;
+    }
+    .tips{
+        width:300px;
+        display:grid;
+        justify-items: center;
+        gap: 20px;
+        text-align: center;
+        padding:0 10vw;
+    }
+    .logos{
+        width:500px;
+        display:grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        margin:auto;
+        margin-bottom: 50px;
+        gap:60px;
+        
+    }
+    footer{
+        background-color:hsl(200, 9%, 94%);
+        width:500px;
+        height:max-content;
+        display:grid;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+        margin:auto;
+    }
+    footer>img{
+        margin:30px 0px;
+    }
+    .faq{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap:10px;
+    }
+    .faq>a{
+        text-decoration: none;
+        color: var(--titlecolor);
+        padding:10px 13px;
+    }
+    .sociais{
+        display:flex;
+        gap:20px;
+        margin:20px 0px;
+    }
+    span{
+        color:var(--cyan)
+    }
 }
