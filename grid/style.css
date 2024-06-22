@@ -1,0 +1,30 @@
+body{
+    width:100vw;
+    height:100vh;
+    display:grid;
+}
+
+    
+    
+
+.container{
+    width:500px;
+    height:500px;
+    display:grid;
+    background-color: aliceblue;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+  
+    
+   
+    
+    
+
+}
+div{
+    
+    background-color:deeppink;
+}
