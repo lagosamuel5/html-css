@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: "Bai Jamjuree", sans-serif;
-    transition: 1s linear;
+    transition: 0.5s linear;
 }
 
 :root{
@@ -13,12 +13,13 @@
     --pcolor: #b0b1b3;
 }
 body{
-    width:1440px;
+    width:100vw;
     margin:auto;
 }
 header{
     background-image: url(images/bg-header-desktop.png);
-    width:1440px;
+    background-size:cover;
+    width:100vw;
     height:300px;
     margin:auto;
     display:flex;
@@ -26,14 +27,16 @@ header{
     align-items: end;
 }
 .logo{
-    width:70px;
-    display:flex;
-    justify-content: center;
+    
+    margin:auto;
 }
+
+
 .title{
-    width:511px;
+    width:30vw;
     margin:auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 .title>h1{
     color:var(--titlecolor);
@@ -47,7 +50,7 @@ p{
     font-size:14px;
 }
 .download{
-    width:511px;
+    width:350px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +76,7 @@ p{
     box-shadow: 1px 2px 1px hsl(210, 10%, 33%);
 }
 .h2{
-    width:541px;
+    width:30vw;
     display:grid;
     margin:auto;
     text-align: center;
@@ -84,7 +87,7 @@ h2{
     color:var(--titlecolor);
 }
 .pcdiv{
-    width:1440px;
+    width:75vw;
     display:flex;
     align-items: center;
     margin:auto;
@@ -92,7 +95,7 @@ h2{
     margin-bottom: 130px;
 }
 .sidepc{
-    width:300px;
+    width:22vw;
     display:grid;
     gap:20px;
 }
@@ -100,7 +103,7 @@ h3{
     color:var(--titlecolor)
 }
 .mid{
-    width:530px;
+    width:30vw;
     display:grid;
     align-items: center;
     justify-content: center;
@@ -110,13 +113,16 @@ h3{
     margin-bottom: 70px;
     
 }
+.mid>img, .pc>img{
+    width:37vw;
+}
 .pmargin{
     margin-bottom: 50px;
-    width:530px;
+    width:30vw;
     margin:auto;
 }
 .footer{
-    width:1440px;
+    width:75vw;
     display:grid;
     align-items: center;
     justify-items: center;
@@ -125,14 +131,14 @@ h3{
     margin-bottom: 150px;
 }
 .tips{
-    width:300px;
+    width:20vw;
     display:grid;
     justify-items: center;
     gap: 20px;
     text-align: center;
 }
 .logos{
-    width:1440px;
+    width:75vw;
     display:grid;
     align-items: center;
     justify-items: center;
@@ -143,7 +149,7 @@ h3{
 }
 footer{
     background-color:hsl(200, 9%, 94%);
-    width:1440px;
+    width:100vw;
     height:100px;
     display:flex;
     align-items: center;
@@ -166,6 +172,38 @@ footer{
 }
 span{
     color:var(--cyan)
+}
+
+@media (max-width:1250px){
+    .pc>img{
+        width:40vw;
+    }
+    .mid>img{
+        width:40vw;
+    }
+    .logos{
+        width:75vw;
+        padding:0px 10vw;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .logos>img{
+        width:100px;
+        
+    }
+    .faq{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    
+    .tips>img{
+        width:30px;
+    }
+        
+    
 }
 @media(max-width: 500px){
     body{
@@ -320,7 +358,7 @@ span{
         margin:auto;
         margin-bottom: 50px;
         gap:60px;
-    0
+    
     }
     footer{
         background-color:hsl(200, 9%, 94%);
